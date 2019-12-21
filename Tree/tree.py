@@ -20,7 +20,9 @@ base4 = len(text4)
 base4 += 1
 base5 = len(text5)
 base5 += 1
+
 i = 1
+slp = 2
 
 
 def printSpace():
@@ -45,7 +47,7 @@ def one():
     print(Fore.WHITE + "{:^39}".format("||||"))
     print(Fore.WHITE + "{:^39}".format("||||"))
     printSpace()
-    sleep(.5)
+    sleep(slp)
 
 
 def two():
@@ -62,7 +64,7 @@ def two():
     print(Fore.WHITE + "{:^39}".format("||||"))
     print(Fore.WHITE + "{:^39}".format("||||"))
     printSpace()
-    sleep(.50)
+    sleep(slp)
 
 
 def three():
@@ -79,7 +81,7 @@ def three():
     print(Fore.WHITE + "{:^39}".format("||||"))
     print(Fore.WHITE + "{:^39}".format("||||"))
     printSpace()
-    sleep(.50)
+    sleep(slp)
 
 
 def four():
@@ -96,7 +98,7 @@ def four():
     print(Fore.WHITE + "{:^39}".format("||||"))
     print(Fore.WHITE + "{:^39}".format("||||"))
     printSpace()
-    sleep(.50)
+    sleep(slp)
 
 
 def five():
@@ -113,7 +115,7 @@ def five():
     print(Fore.WHITE + "{:^39}".format("||||"))
     print(Fore.WHITE + "{:^39}".format("||||"))
     printSpace()
-    sleep(.50)
+    sleep(slp)
 
 
 def switch_demo(i):
@@ -129,5 +131,7 @@ def switch_demo(i):
 
 while True:
     switch_demo(i)
+    i = randint(1, 5)
+    slp = i
 
-i = randint(1, 5)
+
