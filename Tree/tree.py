@@ -1,6 +1,7 @@
 from time import sleep
 from random import randint
 from colorama import Fore, Style
+import os
 
 # text1 = input("Enter holiday message: ")
 text1 = "Buon natale Alessandra "
@@ -27,6 +28,7 @@ def printSpace():
     print()
     print()
     print()
+    # os.system("cls")
 
 
 def one():
@@ -43,7 +45,7 @@ def one():
     print(Fore.WHITE + "{:^39}".format("||||"))
     print(Fore.WHITE + "{:^39}".format("||||"))
     printSpace()
-    sleep(.50)
+    sleep(.5)
 
 
 def two():
