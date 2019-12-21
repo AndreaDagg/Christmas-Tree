@@ -22,7 +22,7 @@ base5 = len(text5)
 base5 += 1
 
 i = 1
-slp = 2
+slp = .70
 
 
 def printSpace():
@@ -46,7 +46,7 @@ def one():
             print(Fore.WHITE + "{:^40}".format(text1[:x]))
     print(Fore.WHITE + "{:^39}".format("||||"))
     print(Fore.WHITE + "{:^39}".format("||||"))
-    printSpace()
+    #printSpace()
     sleep(slp)
 
 
@@ -63,7 +63,7 @@ def two():
             print(Fore.WHITE + "{:^40}".format(text2[:x]))
     print(Fore.WHITE + "{:^39}".format("||||"))
     print(Fore.WHITE + "{:^39}".format("||||"))
-    printSpace()
+    #printSpace()
     sleep(slp)
 
 
@@ -80,7 +80,7 @@ def three():
             print(Fore.WHITE + "{:^40}".format(text3[:x]))
     print(Fore.WHITE + "{:^39}".format("||||"))
     print(Fore.WHITE + "{:^39}".format("||||"))
-    printSpace()
+    #printSpace()
     sleep(slp)
 
 
@@ -97,7 +97,7 @@ def four():
             print(Fore.WHITE + "{:^40}".format(text4[:x]))
     print(Fore.WHITE + "{:^39}".format("||||"))
     print(Fore.WHITE + "{:^39}".format("||||"))
-    printSpace()
+    #printSpace()
     sleep(slp)
 
 
@@ -114,7 +114,7 @@ def five():
             print(Fore.WHITE + "{:^40}".format(text5[:x]))
     print(Fore.WHITE + "{:^39}".format("||||"))
     print(Fore.WHITE + "{:^39}".format("||||"))
-    printSpace()
+    #printSpace()
     sleep(slp)
 
 
@@ -132,6 +132,5 @@ def switch_demo(i):
 while True:
     switch_demo(i)
     i = randint(1, 5)
-    slp = i
-
-
+   # K = randint(50, 100)
+   # slp = K - ( 1 / K)
