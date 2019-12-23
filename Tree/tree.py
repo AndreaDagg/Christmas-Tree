@@ -46,7 +46,7 @@ def one():
             print(Fore.WHITE + "{:^40}".format(text1[:x]))
     print(Fore.WHITE + "{:^39}".format("||||"))
     print(Fore.WHITE + "{:^39}".format("||||"))
-    #printSpace()
+    # printSpace()
     sleep(slp)
 
 
@@ -63,7 +63,7 @@ def two():
             print(Fore.WHITE + "{:^40}".format(text2[:x]))
     print(Fore.WHITE + "{:^39}".format("||||"))
     print(Fore.WHITE + "{:^39}".format("||||"))
-    #printSpace()
+    # printSpace()
     sleep(slp)
 
 
@@ -80,7 +80,7 @@ def three():
             print(Fore.WHITE + "{:^40}".format(text3[:x]))
     print(Fore.WHITE + "{:^39}".format("||||"))
     print(Fore.WHITE + "{:^39}".format("||||"))
-    #printSpace()
+    # printSpace()
     sleep(slp)
 
 
@@ -97,7 +97,7 @@ def four():
             print(Fore.WHITE + "{:^40}".format(text4[:x]))
     print(Fore.WHITE + "{:^39}".format("||||"))
     print(Fore.WHITE + "{:^39}".format("||||"))
-    #printSpace()
+    # printSpace()
     sleep(slp)
 
 
@@ -114,7 +114,7 @@ def five():
             print(Fore.WHITE + "{:^40}".format(text5[:x]))
     print(Fore.WHITE + "{:^39}".format("||||"))
     print(Fore.WHITE + "{:^39}".format("||||"))
-    #printSpace()
+    # printSpace()
     sleep(slp)
 
 
@@ -129,8 +129,26 @@ def switch_demo(i):
     switcher.get(i, "Invalid month")
 
 
-while True:
+Ciclo = True
+Natale = 0
+while Ciclo:
     switch_demo(i)
     i = randint(1, 5)
-   # K = randint(50, 100)
-   # slp = K - ( 1 / K)
+    Natale += Natale
+    if (Natale == 2019):
+        Ciclo = False
+    elif Natale == 170:
+        slp = 1
+    elif Natale == 300:
+        slp = 2
+    elif Natale == 560:
+        slp = .50
+    elif Natale == 770:
+        slp = 1
+    elif Natale == 800:
+        slp = 2
+    elif Natale == 960:
+        slp = .50
+
+# K = randint(50, 100)
+# slp = K - ( 1 / K)
